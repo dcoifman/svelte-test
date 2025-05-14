@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Motion } from '@motionone/svelte';
-  import { fly, scale, fade } from 'svelte/transition';
+  // Removed invalid import: 'svelte/transition' does not exist or is not needed here
 </script>
 
 <!-- Hero Section -->
