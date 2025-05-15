@@ -1,69 +1,36 @@
-# SprintEd Landing Page
+# SprintEd
 
-**Status:** [CURRENT]  
-**Last Updated:** 2024-06-09  
-**Version:** 1.0
+A modern learning platform that combines sprint-based learning cycles, adaptive AI, and project-based education.
 
----
+## Features
 
-## Introduction
-This project contains a SvelteKit-based landing page for SprintEd, featuring a modern, animated UI and a clear call to action. The main page is implemented in `landing_page.svelte`.
+- **Adaptive Learning**: AI-powered personalized learning paths
+- **Sprint-Based Learning**: Structured learning cycles with reflection periods
+- **Project-Based Education**: Real-world projects to showcase skills
+- **Modern Tech Stack**: Built with SvelteKit, Tailwind CSS, and Google Gemini
 
-## Executive Summary
-- SvelteKit + TailwindCSS + Motion One
-- Single landing page with hero, features, roadmap, and CTA
-- Ready for local development and deployment
+## Getting Started
 
-## Key Points
-- Uses SvelteKit for routing and SSR
-- TailwindCSS for styling
-- Motion One for animations
-- Place `landing_page.svelte` as `src/routes/+page.svelte`
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open your browser and navigate to `http://localhost:5173`
 
----
+## Tech Stack
 
-## Setup Instructions
+- **Frontend**: SvelteKit, TypeScript, Tailwind CSS
+- **Animations**: Motion One
+- **Icons**: Lucide Icons
+- **AI Integration**: Google Gemini
 
-### 1. Prerequisites
-- Node.js (v18+ recommended)
-- npm or pnpm
+## License
 
-### 2. Create a SvelteKit Project
-```bash
-npm create svelte@latest sprinted-landing
-cd sprinted-landing
-```
-Choose the following options:
-- Skeleton project
-- TypeScript: Yes
-- ESLint/Prettier/Playwright: as you prefer
+This project is private and proprietary.
 
-### 3. Install Dependencies
-```bash
-npm install
-npm install -D tailwindcss postcss autoprefixer @motionone/svelte
-npx tailwindcss init tailwind.config.cjs -p
-```
-
-### 4. Configure Tailwind
-Edit `tailwind.config.cjs` and `postcss.config.cjs` as needed (see SvelteKit + Tailwind docs).
-
-### 5. Replace Main Page
-Copy `landing_page.svelte` to `src/routes/+page.svelte` (overwrite if needed).
-
-### 6. Run the App
-```bash
-npm run dev
-```
-Visit [http://localhost:5173](http://localhost:5173) to view the landing page.
-
----
-
-## Cross-References
-- See `proj.md` for project context
-
-## Feedback
-Please open issues or PRs for improvements.
-
-## Changelog
-- 2024-06-09: Initial README created 
+© 2025 SprintEd. All rights reserved. 
